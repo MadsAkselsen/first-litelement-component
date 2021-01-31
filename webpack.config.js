@@ -38,6 +38,9 @@ module.exports = {
     extensions: ['.ts', '.js', '.tsx'],
   },
   plugins: [
-    new HtmlWebpackPlugin({ title: 'custom template', template: 'index.html' }),
+    new HtmlWebpackPlugin({
+      title: 'custom template',
+      template: '/public/index.html',
+    }),
   ],
 };
